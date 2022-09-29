@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".SingleViewCandidatedetails">
+
+        <TextView
+            android:id="@+id/tvTitlez"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Make an Inquire"
+            android:textSize="30sp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Doctor Name"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="15dp"
+            android:layout_marginTop="30dp"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/doctornamezloading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Candidatename"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="15dp"
+            android:background="@drawable/et_custom"
+            android:layout_marginTop="30dp"
+            android:textSize="15sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Doctor Type"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="15dp"
+            android:layout_marginTop="30dp"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/loaddoctortypezloadingtype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Candidatename"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="15dp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/et_custom"
+            android:layout_marginTop="30dp"
+            android:textSize="15sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Doctor Contact"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="15dp"
+            android:layout_marginTop="30dp"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/doctorcontactszloadingz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Candidatename"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="15dp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/et_custom"
+            android:layout_marginTop="30dp"
+            android:textSize="15sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="15dp"
+            android:layout_marginTop="30dp"
+            android:textSize="15sp" />
+        <EditText
+            android:id="@+id/descriptiondoczll"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:hint="Type your Inquiry Ddescription"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="15dp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/et_custom"
+            android:layout_marginTop="30dp"
+            android:textSize="15sp" />
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button"
+            android:text="Make Enquiry"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            android:id="@+id/makeenquiryz"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+
+            android:layout_marginTop="20dp"/>
+
+
+
+    </LinearLayout>
+</ScrollView>

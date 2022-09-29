@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".SingleViewCandidatedetails">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Details of the Inquiry"
+            android:textSize="30sp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            />
+
+
+
+        <TextView
+            android:id="@+id/doctornamez23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Candidatename"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="15dp"
+            android:background="@drawable/et_custom"
+            android:layout_marginTop="30dp"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/loaddoctortypez23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Candidatename"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="15dp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/et_custom"
+            android:layout_marginTop="30dp"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/datezinz3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Candidatename"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="15dp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/et_custom"
+            android:layout_marginTop="30dp"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/timezinz3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Candidatename"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="15dp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/et_custom"
+            android:layout_marginTop="30dp"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/descriptioninquz3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:hint="Candidatename"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="15dp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/et_custom"
+            android:layout_marginTop="30dp"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/commentzz3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:hint="Candidatename"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="15dp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/et_custom"
+            android:layout_marginTop="30dp"
+            android:textSize="15sp" />
+
+
+
+
+    </LinearLayout>
+</ScrollView>

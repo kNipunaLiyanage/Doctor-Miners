@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RepotCrime"
+    android:background="@drawable/crimescene"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/telephoneno"
+        android:drawableLeft="@mipmap/account"
+        android:hint="Telephone Number"
+        android:layout_marginTop="170dp"
+        android:textColor="#FFF"
+        android:paddingLeft="0dp"
+        android:drawablePadding="5dp"
+        android:textColorHint="#999"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/crimedes"
+        android:drawableLeft="@mipmap/account"
+        android:hint="Describe Crime"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFF"
+        android:paddingLeft="0dp"
+        android:drawablePadding="5dp"
+        android:textColorHint="#999"/>
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Report Crime"
+    android:textSize="35dp"
+    android:layout_marginTop="20dp"
+    android:id="@+id/reportcrimezzz"
+    />
+
+</LinearLayout>

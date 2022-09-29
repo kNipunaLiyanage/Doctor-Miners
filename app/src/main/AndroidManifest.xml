@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dushan.crimeandmissingrepoter">
+    <!-- Required to act as a custom watch face. -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" />
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/online"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".Testmailz"
+            android:exported="false" />
+        <activity
+            android:name=".SingleViewPendinginquiryDoctor"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorsSubmittedz"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorsPendingreqs"
+            android:exported="false" />
+        <activity
+            android:name=".LoginDoctor"
+            android:exported="false" />
+<!--        <activity-->
+<!--            android:name=".ui.login.LoginDoctor"-->
+<!--            android:exported="false"-->
+<!--            android:label="@string/title_activity_login_doctor" />-->
+        <activity
+            android:name=".DoctorHomepage"
+            android:exported="false" />
+        <activity
+            android:name=".SingleViewCompletedInq"
+            android:exported="false" />
+        <activity
+            android:name=".SingleViewPendingInquiry"
+            android:exported="false" />
+        <activity
+            android:name=".AcceptedEnquiries"
+            android:exported="false" />
+        <activity
+            android:name=".PendingEnquirires"
+            android:exported="false" />
+        <activity
+            android:name=".SelectEnquiryHome"
+            android:exported="false" />
+        <activity
+            android:name=".MakeAnInquireDoctor"
+            android:exported="false" />
+        <activity
+            android:name=".SearchDoctors"
+            android:exported="false" />
+        <activity
+            android:name=".SearchButtonDoc"
+            android:exported="false" />
+        <activity
+            android:name=".SingleDoctorDetails"
+            android:exported="false" />
+        <activity
+            android:name=".ShowAllDoctors"
+            android:exported="false" />
+        <activity
+            android:name=".SubMinerDoctorHome"
+            android:exported="false" />
+        <activity
+            android:name=".MinerHomePage"
+            android:exported="false" />
+        <activity
+            android:name=".MinerLogin"
+            android:exported="false" />
+        <activity
+            android:name=".MinersRegister"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterDoctor"
+            android:exported="false" />
+        <activity
+            android:name=".PreLoadMiner"
+            android:exported="false" />
+        <activity
+            android:name=".PreLoadDoctor"
+            android:exported="false" />
+        <activity
+            android:name=".HomeBothmain"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".locationsend" />
+        <activity android:name=".singlemissingpersondetail" />
+        <activity android:name=".SingleReportDetais" />
+        <activity android:name=".LoadCrimeReports" />
+        <activity android:name=".SingleCrimeDetails" />
+        <activity android:name=".loadcrimelist" />
+        <activity android:name=".coplogin" />
+        <activity android:name=".mainHome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MissingpersonReport" />
+        <activity android:name=".RepotCrime" />
+        <activity android:name=".UserHome" />
+        <activity android:name=".missingpersons" />
+        <activity android:name=".Login" />
+        <activity android:name=".CreateAccount" />
+        <activity
+            android:name=".HomePagePolice"
+            android:label="@string/title_activity_home_page_police"
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>

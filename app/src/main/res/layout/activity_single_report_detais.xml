@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".SingleCrimeDetails"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text=" Report Crime Details"
+            android:textSize="30dp"
+            android:gravity="center"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Crime Date"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:id="@+id/textviewonezz"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Crime time"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:id="@+id/textviewsixzz"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Report By"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:id="@+id/textviewtwozz"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="User Contact"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:id="@+id/textviewthreezz"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="User Nic"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:id="@+id/textviefourzz"
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Crime Type"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:id="@+id/textviefivezz"
+            />
+
+
+
+    </LinearLayout>
+</ScrollView>

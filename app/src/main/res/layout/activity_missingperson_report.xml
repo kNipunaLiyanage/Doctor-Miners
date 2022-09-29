@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?><ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorPrimary">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MissingpersonReport"
+    android:background="@drawable/crimescene"
+    android:orientation="vertical"
+    >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/namemissing"
+        android:drawableLeft="@mipmap/account"
+        android:hint="Missing person name"
+        android:layout_marginTop="100dp"
+        android:textColor="#FFF"
+        android:paddingLeft="0dp"
+        android:drawablePadding="5dp"
+        android:textColorHint="#999"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/address"
+        android:drawableLeft="@mipmap/account"
+        android:hint="Address"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFF"
+        android:paddingLeft="0dp"
+        android:drawablePadding="5dp"
+        android:textColorHint="#999"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/loctionz"
+        android:drawableLeft="@mipmap/account"
+        android:hint="Last known location"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFF"
+        android:paddingLeft="0dp"
+        android:drawablePadding="5dp"
+        android:textColorHint="#999"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/decription"
+        android:drawableLeft="@mipmap/account"
+        android:hint="Description"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFF"
+        android:paddingLeft="0dp"
+        android:drawablePadding="5dp"
+        android:textColorHint="#999"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Image"
+        android:textSize="35dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/imageselect"
+        android:onClick="selectImage"
+        />
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:id="@+id/selectedimage"
+    android:onClick="selectImage"
+    android:layout_marginTop="20dp"
+    />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Report Missing Person"
+        android:textSize="35dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/reportmissing"
+        />
+
+
+</LinearLayout>
+</ScrollView>
